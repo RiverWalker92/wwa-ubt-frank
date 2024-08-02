@@ -1,14 +1,13 @@
-numpy==1.21.0
-pandas==1.2.5
-plotly==5.0.0
-dash==1.20.0
-gunicorn==20.1.0
-Flask
-logic
+azure-functions
+pandas
+plotly
+dash
+#gunicorn (necessary?)
+#Flask (already dependency of dash)
+#logic (necessary?)
 flask-login
 flask-sqlalchemy
 flask-wtf
-ddtrace
-django-dotenv
 flask-assets
+ddtrace
 statsmodels

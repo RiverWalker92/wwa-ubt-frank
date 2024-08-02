@@ -1,14 +1,8 @@
 """Instantiate a Dash app."""
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
-import dash_table
-import numpy as np
+from dash import dcc, html
 import pandas as pd
-from datetime import date
-import plotly.express as px  # (version 4.7.0)
 import plotly.graph_objects as go
-
 from dash.dependencies import Input, Output
 from .layout import html_layout
 

@@ -1,6 +1,4 @@
-"""Plotly Dash HTML layout override."""
-
-html_layout = """
+<!--Plotly Dash HTML layout override. -->
 <!DOCTYPE html>
     <html>
         <head>
@@ -11,7 +9,7 @@ html_layout = """
         </head>
         <body class="dash-template">
             <header>
-              <div class="nav-wrapper">
+                <div class="nav-wrapper">
                 <a href="/">
                     <img src="/static/img/WWA_Amsbach_logo.svg" class="logo" />
                     <h1>Lake Monitoring Data Overview </h1>
@@ -21,9 +19,9 @@ html_layout = """
                     <a href="/Depthprofiles/"><h3>Depth profiles</h3></a>
                     <a href="/DepthProfileTrends/"><h3>Depth trends</h3></a>
                     <a href="/MeanConcentrations/"><h3>Mean concentration trends</h3></a>
-                     <a href="/SpecieRelations/"><h3>Specie Relationships</h3></a>
+                        <a href="/SpecieRelations/"><h3>Specie Relationships</h3></a>
                 </nav>
-              </div>
+                </div>
             </header>
             
             {%app_entry%}
@@ -34,4 +32,4 @@ html_layout = """
             </footer>
         </body>
     </html>
-"""
+
